@@ -11,6 +11,7 @@ Group:		Networking/Instant messaging
 Source0:	http://prdownloads.sourceforge.net/ojnk/%{name}-%{version}.tar.bz2
 URL:		http://ojnk.sourceforge.net/
 BuildRequires:	ncurses-devel perl-devel gpm-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %define _provides_exceptions perl(Calendar)
 
