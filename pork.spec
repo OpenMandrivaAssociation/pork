@@ -1,6 +1,6 @@
 %define	name	pork
 %define	version	0.99.8.1
-%define	release %mkrel 4
+%define	release %mkrel 5
 
 Summary:	A ncurses-based AIM client
 Name:		%{name}
