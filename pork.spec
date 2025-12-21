@@ -10,6 +10,11 @@ License:	GPL
 Group:		Networking/Instant messaging
 Source0:	http://prdownloads.sourceforge.net/ojnk/%{name}-%{version}.tar.bz2
 URL:		https://ojnk.sourceforge.net/
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	ncurses-devel perl-devel gpm-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
